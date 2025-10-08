@@ -1,25 +1,49 @@
 :root {
     --mainFont:"Roboto" , sans-serif;
-    --textcolor :#545d6f;
+    --textcolor :#545454;
+    
+    
 }
 
 /* start navbar section */
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
-    color: #545454;
+    color: var(--textcolor);
     font-size: 16px;
     font-weight: 600;
 }
 .navbar-nav .nav-link, .navbar-nav .nav-link.show  {
-    color: #545454;
+    color: var(--textcolor);
     font-size: 16px;
     font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link{
+    transition: all .6s;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #3a4ee5;
+}
+
+.navbar-nav .nav-item .nav-link:hover svg path {
+  fill: #3a4ee5;
+}
+
+
+.dropdown-item{
+    color: var(--textcolor);
+    transition: all .6s;
+}
+
+.dropdown-item:hover {
+    color: #3a4ee5;
 }
 
 .offcanvas-body input {
     font-size: 14px;
     outline: none;
-   border: 1px solid #545454;
+   border: 1px solid var(--textcolor);
 }
 
 .offcanvas-body .srch-btn {
@@ -30,7 +54,7 @@
     right: -10px;
 }
 
-.srch-products img {
+.srch-product img {
     width: 85px;
     height: 95px;
 }
@@ -39,7 +63,7 @@
     border: 1px solid #eee;
 }
 
-.srch-products a {
+.srch-product a {
     text-decoration: none;
 }
 
@@ -50,6 +74,55 @@
 }
 
 .srch-product .prod-category {
+    font-size: 13px;
+    color: #777;
+}
+.fav-product img {
+    width: 60px;
+    height: 70px;
+}
+.cart-product img {
+    width: 70px;
+    height: 80px;
+}
+
+.fav-product {
+    border: 1px solid #eee;
+}
+.cart-product {
+    border: 1px solid #eee;
+}
+
+.fav-product a {
+    text-decoration: none;
+}
+.cart-product a {
+    text-decoration: none;
+}
+
+.fav-product .prod-header {
+        color: #313b50;
+        font-weight: 500;
+        font-size: 15px;
+}
+.cart-product .prod-header {
+        color: #313b50;
+        font-weight: 500;
+        font-size: 15px;
+}
+
+.fav-product .prod-category {
+    font-size: 13px;
+    color: #777;
+}
+
+.badge-fav{
+    top: 9px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+}
+.cart-product .prod-category {
     font-size: 13px;
     color: #777;
 }
@@ -66,10 +139,35 @@
     font-weight: 400;
     font-size: 11px;
 }
+.cart-product .in-stock {
+    margin-left: 10px;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
 
 
 
 .srch-product .remove-prod{
+    top: 1px;
+    right: 10px;
+    padding: 0 0 0 10px;
+    color: #999;
+    font-size: 20px;
+ 
+   
+}
+.fav-product .remove-prod{
+    top: 1px;
+    right: 10px;
+    padding: 0 0 0 10px;
+    color: #999;
+    font-size: 20px;
+ 
+   
+}
+.cart-product .remove-prod{
     top: 1px;
     right: 10px;
     padding: 0 0 0 10px;
@@ -86,7 +184,44 @@ svg path {
 .srch-product .remove-prod:hover svg path {
   fill: red;
 }
+.fav-product .remove-prod:hover svg path {
+  fill: red;
+}
+.cart-product .remove-prod:hover svg path {
+  fill: red;
+}
 
+.inc-dec{
+    width: 80px;
+}
+
+.inc-dec span {
+    color: #777;
+    
+    font-size: 13px;
+
+    font-weight: 400;
+}
+
+.inc-btn , .dec-btn {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    color: #777;
+    font-weight: 400;
+    box-sizing: border-box;
+    
+}
+
+.inc-btn {
+    top: 3px;
+    right: 5px;
+}
+
+.dec-btn{
+    top: 3px;
+    left: 5px;
+}
 
 .recent-srch{
     color: #313b50;
@@ -110,4 +245,74 @@ svg path {
     border: 1px solid #3a4ee5;
     color: #3a4ee5;
 }
+
+.crt-btn {
+    transition: all .6s;
+    position: relative;
+}
+.chkout-btn {
+    transition: all .6s;
+    position: relative;
+}
+
+   .crt-btn::after {
+      content: '›';            
+      font-size: 24px;         
+      position: absolute;  
+      top: -2px;    
+      right: 12px;
+      
+    }
+   .chkout-btn::after {
+      content: '›';            
+      font-size: 24px;         
+      position: absolute;  
+      top: -2px;    
+      right: 12px;
+      
+    }
+
+.crt-btn:hover {
+    background-color:#3a4ee5 ;
+    color: #fff;
+}
+.chkout-btn:hover {
+    background-color:#ffd783;
+    color: #313b50;
+}
+
+
+.identify-price a {
+    text-decoration: none;
+    color: #313b50;
+    background-color: #ffd783;
+     font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.identify-price span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #313b50;
+}
+
+.prices {
+    font-size: 16px;
+    font-weight: 500;
+    color: #313b50;
+}
+
+
+
+.prices a {
+    background-color:#3a4ee5 ;
+    color: #fff;
+     font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
 /* end navbar section */
