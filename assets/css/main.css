@@ -418,6 +418,44 @@ max-width: 150px;
   opacity: 0.2;
    
 }
+.c-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #4b5966;
+    transition: all .6s;
+}
+
+.c-icon:hover svg path {
+   fill: #181e28;
+}
+
+.c-icon:hover{
+    background-color: #ffd783;
+}
+
+.list-body a{
+    transition: all .6s;
+}
+
+.list-body a:hover{
+    color: #ffd783;
+}
+
+@media screen and (min-width:992px) {
+    .drop-down-responsive {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    
+    .rights-payments{
+        flex-direction: column;
+        gap: 15px;
+    }
+  .right-side{
+    display: none;
+  }
 
 
 /* end footer section */
