@@ -5,6 +5,10 @@
     
 }
 
+body {
+    background-color: #f1f4f7;
+}
+
 ul{
     list-style-type: none;
 }
@@ -456,6 +460,43 @@ max-width: 150px;
   .right-side{
     display: none;
   }
-
+}
 
 /* end footer section */
+
+ .offer{
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+ }
+
+ .offer h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #313b50;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .offer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+ }
+
+/* start offers section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end offers section */
