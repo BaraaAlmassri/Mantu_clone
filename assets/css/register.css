@@ -1,0 +1,71 @@
+body {
+    background-color: #f1f4f7;
+    font-family: var(--mainFont);
+}
+
+.bread-cont h2 {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #313b50;
+}
+
+.breadcrumb ol {
+    list-style-type:none;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .active {
+        color: #777;
+}
+
+.in-lbl label {
+        color: #313b50;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.in-lbl input {
+        color: #777;
+    font-size: 14px;
+}
+.in-lbl select {
+        color: #777;
+    font-size: 14px;
+}
+
+.footer-form span {
+        font-size: 14px;
+    color: #777;
+}
+.footer-form a {
+    text-decoration: none;
+    color: #313b50;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.footer-form a:hover{
+    color: #3a4ee5;
+}
+
+.reg-btn input{
+    font-size: 14px;
+    color: #313b50;
+    background-color: #ffd783;
+    border: none;
+    transition: all .5s;
+}
+
+.reg-btn input:hover{
+    background-color: #3a4ee5;
+    color: #fff;
+}

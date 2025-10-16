@@ -1,5 +1,5 @@
 :root {
-    --mainFont:"Roboto" , sans-serif;
+    --mainFont:"Poppins" , sans-serif;
     --textcolor :#545454;
     
     
@@ -7,6 +7,7 @@
 
 body {
     background-color: #f1f4f7;
+    font-family: var(--mainFont);
 }
 
 ul{
