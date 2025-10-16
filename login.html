@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Register Page</title>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
     <!-- fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,7 +32,7 @@
     <!-- custom css -->
 
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/css/register.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
   </head>
   <body>
     <div class="container">
@@ -202,10 +201,11 @@
         </div>
       </nav>
     </div>
+
     <div class="container py-4">
       <div class="bread-cont ms-auto d-flex bg-white border rounded-4 px-4">
         <div class="header-breadcrumb">
-          <h2 class="mt-2">Register Page</h2>
+          <h2 class="mt-2">Login Page</h2>
         </div>
         <div class="bread-nav">
           <nav
@@ -216,7 +216,7 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">
-                Register Page
+                Login Page
               </li>
             </ol>
           </nav>
@@ -225,137 +225,81 @@
     </div>
 
     <main>
-      <section class="register-body py-2">
-        <div class="container">
-          <form
-            method="get"
-            class="p-5 bg-white border rounded-4 ms-auto me-auto"
-          >
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>First Name*</label>
+      <div class="container">
+        <form
+          class="p-5 bg-white border rounded-4 ms-auto me-auto"
+          method="get"
+        >
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="in-lbl d-flex flex-column gap-1 mb-4">
+                <label>Email Address*</label>
+                <input
+                  class="border rounded-4 p-3"
+                  type="text"
+                  name="email"
+                  placeholder="Enter your email add..."
+                  required
+                />
+              </div>
+
+              <div class="in-lbl d-flex flex-column gap-1 mb-4">
+                <label>Password*</label>
+                <input
+                  class="border rounded-4 p-3"
+                  type="password"
+                  name="Password"
+                  placeholder="Enter your password"
+                  required
+                />
+              </div>
+
+              <div class="remember-forgot d-flex mb-4">
+                <div class="form-check">
                   <input
-                    class="border rounded-4 p-3"
-                    type="text"
-                    name="first-name"
-                    placeholder="Enter your first name"
+                    class="form-check-input text-info"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
                   />
+                  <label class="form-check-label" for="checkDefault">
+                    Remember
+                  </label>
+                </div>
+                <div class="forgot">
+                  <a href="#">Forgot Password?</a>
                 </div>
               </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Last Name*</label>
+
+              <div class="create-login d-flex">
+                <div class="create">
+                  <a href="register.html">Create Account?</a>
+                </div>
+
+                <div class="login-btn">
                   <input
-                    class="border rounded-4 p-3"
-                    type="text"
-                    name="last-name"
-                    placeholder="Enter your last name"
+                    class="lgn-btn rounded-3 py-2 px-3"
+                    type="submit"
+                    value="Login"
                   />
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Email*</label>
-                  <input
-                    class="border rounded-4 p-3"
-                    type="text"
-                    name="email"
-                    placeholder="Enter your email add..."
-                  />
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Phone Number*</label>
-                  <input
-                    class="border rounded-4 p-3"
-                    type="text"
-                    name="phone-number"
-                    placeholder="Enter your phone number"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Address*</label>
-                  <input
-                    class="border rounded-4 p-3"
-                    type="text"
-                    name="address"
-                    placeholder="Address Line 1"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>City*</label>
-                  <select class="border rounded-4 p-3" name="City">
-                    <option hidden>City</option>
-                    <option value="City1">City1</option>
-                    <option value="City2">City2</option>
-                    <option value="City3">City3</option>
-                    <option value="City4">City4</option>
-                    <option value="City5">City5</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Post Code</label>
-                  <input
-                    class="border rounded-4 p-3"
-                    type="text"
-                    name="Post Code"
-                    placeholder="Post Code"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Country*</label>
-                  <select class="border rounded-4 p-3" name="country">
-                    <option hidden>Country</option>
-                    <option value="Country1">Country1</option>
-                    <option value="Country2">Country2</option>
-                    <option value="Country3">Country3</option>
-                    <option value="Country4">Country4</option>
-                    <option value="Country5">Country5</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="in-lbl d-flex flex-column gap-1 mb-4">
-                  <label>Region State</label>
-                  <select class="border rounded-4 p-3" name="Region State">
-                    <option hidden>Region/State</option>
-                    <option value="Region/state 1">Region/state 1</option>
-                    <option value="Region/state 2">Region/state 2</option>
-                    <option value="Region/state 3">Region/state 3</option>
-                    <option value="Region/state 4">Region/state 4</option>
-                    <option value="Region/state 5">Region/state 5</option>
-                  </select>
                 </div>
               </div>
             </div>
 
-            <div class="footer-form d-flex">
-              <div class="have-acc d-flex align-items-center gap-2">
-                <span>Have an account?</span>
-                <a href="login.html">Login</a>
-              </div>
-              <div class="reg-btn text-center">
-                <input
-                  class="rounded-3 py-2 px-3"
-                  type="submit"
-                  value="Register"
+            <div
+              class="col-md-6 align-items-center justify-content-center lgn-img"
+            >
+              <div class="login-img">
+                <img
+                  class="rounded-4 img-fluid"
+                  src="./assets/img/login/login.webp"
+                  alt="login_pic"
                 />
               </div>
             </div>
-          </form>
-        </div>
-      </section>
-
+          </div>
+        </form>
+      </div>
       <footer class="py-5">
         <div class="container rounded-4">
           <div class="row p-5">

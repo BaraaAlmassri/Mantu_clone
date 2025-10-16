@@ -9,6 +9,7 @@ body {
 }
 
 
+
 .bread-cont h2 {
     color: #313b50;
     font-size: 15px;
@@ -33,6 +34,10 @@ body {
         color: #777;
 }
 
+form{
+    width: 75%;
+}
+
 .in-lbl label {
         color: #313b50;
     font-size: 14px;
@@ -48,27 +53,58 @@ body {
     font-size: 14px;
 }
 
-.footer-form{
+.login-img img {
+    width: 550px;
+    height: 350px;
+    
+}
+
+
+.form-check-label {
+    font-size: 15px;
+    color: #999;
+}
+
+.remember-forgot{
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-form span {
-        font-size: 14px;
-    color: #777;
-}
-.footer-form a {
+.forgot a {
     text-decoration: none;
-    color: #313b50;
-    font-weight: 600;
+    color: #777;
+    font-size: 14px;
     transition: all .5s;
 }
 
-.footer-form a:hover{
-    color: #3a4ee5;
+.forgot a:hover{
+    color:#3a4ee5;
 }
 
-.reg-btn input{
+.create-login{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-login a:hover{
+    color: #3a4ee5;;
+}
+.create-login a {
+    text-decoration: none;
+    color: #313b50;;
+    transition: all .5s;
+}
+
+.login-btn input {
+    color: #313b50;;
+    transition: all .5s;
+}
+.login-btn input:hover {
+    background-color: #3a4ee5;
+    color: #fff;
+}
+
+.lgn-btn {
     font-size: 14px;
     color: #313b50;
     background-color: #ffd783;
@@ -76,31 +112,41 @@ body {
     transition: all .5s;
 }
 
-.reg-btn input:hover{
-    background-color: #3a4ee5;
-    color: #fff;
+.lgn-img {
+    display:flex ;
 }
 
-form {
-    width: 75%;
-}
+@media screen and (max-width:991px) {
 
-
-@media screen and (max-width:767px) {
     form{
         width: 100%;
     }
-    
-    .footer-form{
+
+    .lgn-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .create-login{
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
+        gap: 12px;
     }
+}
 
-       .bread-cont{
+@media screen and (max-width:767px) {
+    .bread-cont{
         flex-direction: column;
        justify-content:center;
     
 }
 }
 
+@media screen and (max-width:365px) {
+    .remember-forgot{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
