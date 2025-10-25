@@ -594,3 +594,94 @@ footer .container {
 
 
 /* end testimonials section */
+
+
+
+
+/* start blogs section */
+
+
+.blogs h2 {
+    font-size: 20px;
+    color: #313b50;
+}
+
+.blogs .blog-header h2 ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 35px;
+    bottom: -8px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #7b8592;
+    opacity: 0.2;
+}
+
+.blogs span {
+    color: #3a4ee5;
+}
+
+.blog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #313b50;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.carousel-indicators {
+    bottom: -51px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #313b50;
+    background-color: #f1f4f7;
+}
+
+.date-category span {
+    font-size: 13px;
+    color: #999;
+}
+
+
+.date-category a {
+    font-size: 13px;
+    color: #999;
+    transition: all .6s;
+}
+
+.blog .info-blogs h3 a {
+    text-decoration: none;
+    color: #313b50;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all .6s;
+}
+
+.blog .info-blogs h3 a:hover {
+    color: #3a4ee5;
+}
+
+.blog .info-blogs a {
+    color: #3a4ee5;
+    font-size: 13px;
+}
+
+.date-category a:hover {
+    color: #3a4ee5;
+}
+
+
+
+
+
+/* end blogs section */
