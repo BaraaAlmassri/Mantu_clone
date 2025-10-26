@@ -685,3 +685,98 @@ footer .container {
 
 
 /* end blogs section */
+
+
+/* start hero section */
+
+.hero img {
+    width: 100%;
+}
+
+.carousel-btn {
+    bottom: 21%;
+    left: 10.6%;
+    padding: 7px 12px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #3a4ee5;
+    transition: all .6s;
+}
+
+.carousel-btn:hover {
+    background-color: #ffd783;
+}
+
+.carousel-btn:hover a {
+    color: #313b50;
+}
+
+.carousel-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .carousel-btn {
+        bottom: 19%;
+        left: 11.6%;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .carousel-btn {
+        bottom: 16%;
+        left: 12.2%;
+        padding: 3px 10px;
+    }
+
+
+
+
+    .carousel-btn a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width:487px) and (max-width:767px) {
+    .carousel-btn {
+        bottom: 13%;
+        left: 12.6%;
+        padding: 2px 8px;
+    }
+
+    .carousel-btn a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:486px) {
+    .carousel-btn {
+        bottom: 7%;
+        left: 12.8%;
+        padding: 1px 6px;
+    }
+
+    .carousel-btn a {
+        font-size: 8px;
+    }
+}
+
+
+.hero .carousel-indicators {
+    background-color: #f1f4f7;
+    width: 100px;
+    bottom: -42px;
+}
+
+@media screen and (max-width:767px) {
+    .hero .carousel-indicators {
+        background-color: #f1f4f7;
+        width: 100px;
+        bottom: -50px;
+    }
+}
+
+/* end hero section */
