@@ -961,6 +961,7 @@ footer .container {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -21%);
+    z-index: 1;
 
 }
 
@@ -971,9 +972,11 @@ footer .container {
 }
 
 .new {
+
     position: absolute;
     left: 50%;
     transform: translate(-50%, -21%);
+    z-index: 1;
 }
 
 
@@ -985,9 +988,11 @@ footer .container {
 }
 
 .sale-position {
+
     position: absolute;
     left: 50%;
     transform: translate(-50%, -21%);
+    z-index: 1;
 }
 
 
@@ -1001,9 +1006,11 @@ footer .container {
 
 
 .off-20 {
+
     position: absolute;
     left: 50%;
     transform: translate(-50%, -21%);
+    z-index: 1;
 }
 
 
@@ -1024,6 +1031,10 @@ footer .container {
 
 
 
+}
+
+.newarrival {
+    height: 100%;
 }
 
 .newarrival:hover .icon-hover-newarrival {
