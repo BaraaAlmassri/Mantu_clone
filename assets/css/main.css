@@ -779,4 +779,271 @@ footer .container {
     }
 }
 
+
 /* end hero section */
+
+
+/* start newarrivals section */
+
+.newarrivals .newarrivals-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #313b50;
+    position: relative;
+}
+
+.newarrivals .newarrivals-header span {
+    color: #3a4ee5;
+}
+
+.newarrivals .newarrivals-header h2 ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 35px;
+    bottom: -8px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #7b8592;
+    opacity: 0.2;
+}
+
+.newarrivals h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #313b50;
+}
+
+
+.newarrivals ul {
+    list-style: none;
+}
+
+.newarrivals-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.newarr-colors ul {
+    list-style: none;
+}
+
+.newarr-colors img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.newarr-type-size a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.newarr-type-size a:hover {
+    color: #3a4ee5;
+}
+
+.newarr-type-size a,
+.newarr-type-size li {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+
+.dark-price {
+    font-weight: 700;
+}
+
+.light-price {
+    color: rgb(153, 153, 153);
+}
+
+.newarr-colors .color1 {
+    background-image: url(../img/newarrivals/t-shirt-color1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+
+
+}
+
+.newarr-colors li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(153, 153, 153);
+    transition: all .5s;
+}
+
+.newarr-colors li:hover {
+    border: 1px solid #3a4ee5;
+}
+
+.newarr-colors .color2 {
+    background-image: url(../img/newarrivals/t-shirt-color2.webp);
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3 {
+    background-color: #8deda1;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3-shoe {
+    background-color: #3e3e3e;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3-top {
+    background-color: #f1f4f7;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3-belt {
+    background-color: #dda17c;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3-leabag {
+    background-color: #c57a78;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color4 {
+    background-color: #ED988D;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color4-shoe {
+    background-color: #D16985;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color4-top {
+    background-color: #edceff;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.trending {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -21%);
+
+}
+
+.trending span {
+    color: #3a4ee5;
+    font-size: 11px;
+    background-color: #f1f4f7;
+}
+
+.new {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -21%);
+}
+
+
+
+.new span {
+    color: red;
+    font-size: 11px;
+    background-color: #f1f4f7;
+}
+
+.sale-position {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -21%);
+}
+
+
+
+.sale-position span {
+    color: #73dbcd;
+    font-size: 11px;
+    background-color: #f1f4f7;
+}
+
+
+
+.off-20 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -21%);
+}
+
+
+
+.off-20 span {
+    font-size: 11px;
+    background-color: #f1f4f7;
+}
+
+.icon-hover-newarrival {
+    background-color: #f1f4f7;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 31%);
+    opacity: 0;
+
+    transition: all .5s;
+
+
+
+}
+
+.newarrival:hover .icon-hover-newarrival {
+    opacity: 1;
+}
+
+
+
+.icon-hover-newarrival .view-svg:hover svg path {
+    fill: #3a4ee5;
+}
+
+.icon-hover-newarrival .compare:hover svg path {
+    fill: #3a4ee5;
+}
+
+.icon-hover-newarrival .cart-svg:hover svg path {
+    fill: #3a4ee5;
+}
+
+
+
+/* end new arrivals section */

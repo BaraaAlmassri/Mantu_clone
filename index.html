@@ -142,7 +142,7 @@
 
     <section class="hero py-5">
       <div class="container">
-        <div id="carouselhero" class="carousel slide">
+        <div id="carouselhero" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
           <div class="carousel-indicators ms-auto me-auto rounded-5 position-absolute py-3">
             <button type="button" data-bs-target="#carouselhero" data-bs-slide-to="0" class="active" aria-current="true"
               aria-label="Slide 1"></button>
@@ -184,6 +184,398 @@
 
 
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselhero" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselhero" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="newarrivals py-5">
+      <div class="container">
+        <div class="newarrivals-header mb-5">
+          <h2>New <span>Arrivals</span></h2>
+        </div>
+        <div class="row gy-3">
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="newarrival border rounded-4 d-flex flex-column gap-3 py-3 px-4 position-relative">
+              <div class="trending">
+                <span class="rounded-3 py-1 px-2">TRENDING</span>
+              </div>
+
+              <div class="newarrivals-img text-center mt-3 position-relative">
+                <img class="rounded-3" src="./assets/img/newarrivals/Cotton fabric T-shirt.webp"
+                  alt="cotton_fabric_t-shirt">
+                <div class="icon-hover-newarrival d-flex gap-2 position-absolute py-2 px-2 rounded-4 ">
+                  <div class="view-svg d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M320 144C254.8 144 201.2 173.6 160.1 211.7C121.6 247.5 95 290 81.4 320C95 350 121.6 392.5 160.1 428.3C201.2 466.4 254.8 496 320 496C385.2 496 438.8 466.4 479.9 428.3C518.4 392.5 545 350 558.6 320C545 290 518.4 247.5 479.9 211.7C438.8 173.6 385.2 144 320 144zM127.4 176.6C174.5 132.8 239.2 96 320 96C400.8 96 465.5 132.8 512.6 176.6C559.4 220.1 590.7 272 605.6 307.7C608.9 315.6 608.9 324.4 605.6 332.3C590.7 368 559.4 420 512.6 463.4C465.5 507.1 400.8 544 320 544C239.2 544 174.5 507.2 127.4 463.4C80.6 419.9 49.3 368 34.4 332.3C31.1 324.4 31.1 315.6 34.4 307.7C49.3 272 80.6 220 127.4 176.6zM320 400C364.2 400 400 364.2 400 320C400 290.4 383.9 264.5 360 250.7C358.6 310.4 310.4 358.6 250.7 360C264.5 383.9 290.4 400 320 400zM240.4 311.6C242.9 311.9 245.4 312 248 312C283.3 312 312 283.3 312 248C312 245.4 311.8 242.9 311.6 240.4C274.2 244.3 244.4 274.1 240.5 311.5zM286 196.6C296.8 193.6 308.2 192.1 319.9 192.1C328.7 192.1 337.4 193 345.7 194.7C346 194.8 346.2 194.8 346.5 194.9C404.4 207.1 447.9 258.6 447.9 320.1C447.9 390.8 390.6 448.1 319.9 448.1C258.3 448.1 206.9 404.6 194.7 346.7C192.9 338.1 191.9 329.2 191.9 320.1C191.9 309.1 193.3 298.3 195.9 288.1C196.1 287.4 196.2 286.8 196.4 286.2C208.3 242.8 242.5 208.6 285.9 196.7z" />
+                    </svg>
+                  </div>
+                  <div class="compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M534.6 182.6C547.1 170.1 547.1 149.8 534.6 137.3L470.6 73.3C461.4 64.1 447.7 61.4 435.7 66.4C423.7 71.4 416 83.1 416 96L416 128L256 128C150 128 64 214 64 320C64 337.7 78.3 352 96 352C113.7 352 128 337.7 128 320C128 249.3 185.3 192 256 192L416 192L416 224C416 236.9 423.8 248.6 435.8 253.6C447.8 258.6 461.5 255.8 470.7 246.7L534.7 182.7zM105.4 457.4C92.9 469.9 92.9 490.2 105.4 502.7L169.4 566.7C178.6 575.9 192.3 578.6 204.3 573.6C216.3 568.6 224 556.9 224 544L224 512L384 512C490 512 576 426 576 320C576 302.3 561.7 288 544 288C526.3 288 512 302.3 512 320C512 390.7 454.7 448 384 448L224 448L224 416C224 403.1 216.2 391.4 204.2 386.4C192.2 381.4 178.5 384.2 169.3 393.3L105.3 457.3z" />
+                    </svg>
+                  </div>
+                  <div class="cart-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="newarr-type-size d-flex justify-content-between mt-2 ms-1 ">
+                <div class="type">
+                  <a href="categories.html">T-SHIRT</a>
+                </div>
+                <div class="newarr-sizes  mt-1">
+                  <ul class="d-flex gap-2 ">
+                    <li>S</li>
+                    <li>M</li>
+                    <li>XL</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="newarr-name">
+                <h3>Cotton fabric T-shirt</h3>
+              </div>
+
+              <div class="newarr-prices d-flex gap-2">
+                <span class="dark-price">$120</span>
+                <span class="light-price">$130</span>
+              </div>
+
+              <div class="newarr-colors">
+                <ul class="d-flex gap-2 align-items-center justify-content-center text-center ">
+                  <li class="d-flex justify-content-center align-items-center"><button class="color1"></button></li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color2"></button></li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3"></button></li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color4"></button></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="newarrival border rounded-4 d-flex flex-column gap-3 py-3 px-4">
+              <div class="newarrivals-img text-center mt-3 position-relative">
+                <img class="rounded-3" src="./assets/img/newarrivals/Special sport shoes.webp"
+                  alt="Special sport shoest">
+                <div class="icon-hover-newarrival d-flex gap-2 position-absolute py-2 px-2 rounded-4 ">
+                  <div class="view-svg d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M320 144C254.8 144 201.2 173.6 160.1 211.7C121.6 247.5 95 290 81.4 320C95 350 121.6 392.5 160.1 428.3C201.2 466.4 254.8 496 320 496C385.2 496 438.8 466.4 479.9 428.3C518.4 392.5 545 350 558.6 320C545 290 518.4 247.5 479.9 211.7C438.8 173.6 385.2 144 320 144zM127.4 176.6C174.5 132.8 239.2 96 320 96C400.8 96 465.5 132.8 512.6 176.6C559.4 220.1 590.7 272 605.6 307.7C608.9 315.6 608.9 324.4 605.6 332.3C590.7 368 559.4 420 512.6 463.4C465.5 507.1 400.8 544 320 544C239.2 544 174.5 507.2 127.4 463.4C80.6 419.9 49.3 368 34.4 332.3C31.1 324.4 31.1 315.6 34.4 307.7C49.3 272 80.6 220 127.4 176.6zM320 400C364.2 400 400 364.2 400 320C400 290.4 383.9 264.5 360 250.7C358.6 310.4 310.4 358.6 250.7 360C264.5 383.9 290.4 400 320 400zM240.4 311.6C242.9 311.9 245.4 312 248 312C283.3 312 312 283.3 312 248C312 245.4 311.8 242.9 311.6 240.4C274.2 244.3 244.4 274.1 240.5 311.5zM286 196.6C296.8 193.6 308.2 192.1 319.9 192.1C328.7 192.1 337.4 193 345.7 194.7C346 194.8 346.2 194.8 346.5 194.9C404.4 207.1 447.9 258.6 447.9 320.1C447.9 390.8 390.6 448.1 319.9 448.1C258.3 448.1 206.9 404.6 194.7 346.7C192.9 338.1 191.9 329.2 191.9 320.1C191.9 309.1 193.3 298.3 195.9 288.1C196.1 287.4 196.2 286.8 196.4 286.2C208.3 242.8 242.5 208.6 285.9 196.7z" />
+                    </svg>
+                  </div>
+                  <div class="compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M534.6 182.6C547.1 170.1 547.1 149.8 534.6 137.3L470.6 73.3C461.4 64.1 447.7 61.4 435.7 66.4C423.7 71.4 416 83.1 416 96L416 128L256 128C150 128 64 214 64 320C64 337.7 78.3 352 96 352C113.7 352 128 337.7 128 320C128 249.3 185.3 192 256 192L416 192L416 224C416 236.9 423.8 248.6 435.8 253.6C447.8 258.6 461.5 255.8 470.7 246.7L534.7 182.7zM105.4 457.4C92.9 469.9 92.9 490.2 105.4 502.7L169.4 566.7C178.6 575.9 192.3 578.6 204.3 573.6C216.3 568.6 224 556.9 224 544L224 512L384 512C490 512 576 426 576 320C576 302.3 561.7 288 544 288C526.3 288 512 302.3 512 320C512 390.7 454.7 448 384 448L224 448L224 416C224 403.1 216.2 391.4 204.2 386.4C192.2 381.4 178.5 384.2 169.3 393.3L105.3 457.3z" />
+                    </svg>
+                  </div>
+                  <div class="cart-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="newarr-type-size d-flex justify-content-between mt-2 ms-1 ">
+                <div class="type">
+                  <a href="categories.html">SHOES</a>
+                </div>
+                <div class="newarr-sizes  mt-1">
+                  <ul class="d-flex gap-2 ">
+                    <li>7</li>
+                    <li>8</li>
+                    <li>10</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="newarr-name">
+                <h3>Special sport shoes</h3>
+              </div>
+
+              <div class="newarr-prices d-flex gap-2">
+                <span class="dark-price">$55</span>
+
+              </div>
+
+              <div class="newarr-colors">
+                <ul class="d-flex gap-2 align-items-center justify-content-center text-center ">
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-shoe"></button>
+                  </li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color4-shoe"></button>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="newarrival border rounded-4 d-flex flex-column gap-3 py-3 px-4 position-relative">
+              <div class="new">
+                <span class="rounded-3 py-1 px-2">NEW</span>
+              </div>
+              <div class="newarrivals-img text-center mt-3 position-relative">
+                <img class="rounded-3" src="./assets/img/newarrivals/Cotton fabric Top.webp" alt="Cotton fabric Top">
+                <div class="icon-hover-newarrival d-flex gap-2 position-absolute py-2 px-2 rounded-4 ">
+                  <div class="view-svg d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M320 144C254.8 144 201.2 173.6 160.1 211.7C121.6 247.5 95 290 81.4 320C95 350 121.6 392.5 160.1 428.3C201.2 466.4 254.8 496 320 496C385.2 496 438.8 466.4 479.9 428.3C518.4 392.5 545 350 558.6 320C545 290 518.4 247.5 479.9 211.7C438.8 173.6 385.2 144 320 144zM127.4 176.6C174.5 132.8 239.2 96 320 96C400.8 96 465.5 132.8 512.6 176.6C559.4 220.1 590.7 272 605.6 307.7C608.9 315.6 608.9 324.4 605.6 332.3C590.7 368 559.4 420 512.6 463.4C465.5 507.1 400.8 544 320 544C239.2 544 174.5 507.2 127.4 463.4C80.6 419.9 49.3 368 34.4 332.3C31.1 324.4 31.1 315.6 34.4 307.7C49.3 272 80.6 220 127.4 176.6zM320 400C364.2 400 400 364.2 400 320C400 290.4 383.9 264.5 360 250.7C358.6 310.4 310.4 358.6 250.7 360C264.5 383.9 290.4 400 320 400zM240.4 311.6C242.9 311.9 245.4 312 248 312C283.3 312 312 283.3 312 248C312 245.4 311.8 242.9 311.6 240.4C274.2 244.3 244.4 274.1 240.5 311.5zM286 196.6C296.8 193.6 308.2 192.1 319.9 192.1C328.7 192.1 337.4 193 345.7 194.7C346 194.8 346.2 194.8 346.5 194.9C404.4 207.1 447.9 258.6 447.9 320.1C447.9 390.8 390.6 448.1 319.9 448.1C258.3 448.1 206.9 404.6 194.7 346.7C192.9 338.1 191.9 329.2 191.9 320.1C191.9 309.1 193.3 298.3 195.9 288.1C196.1 287.4 196.2 286.8 196.4 286.2C208.3 242.8 242.5 208.6 285.9 196.7z" />
+                    </svg>
+                  </div>
+                  <div class="compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M534.6 182.6C547.1 170.1 547.1 149.8 534.6 137.3L470.6 73.3C461.4 64.1 447.7 61.4 435.7 66.4C423.7 71.4 416 83.1 416 96L416 128L256 128C150 128 64 214 64 320C64 337.7 78.3 352 96 352C113.7 352 128 337.7 128 320C128 249.3 185.3 192 256 192L416 192L416 224C416 236.9 423.8 248.6 435.8 253.6C447.8 258.6 461.5 255.8 470.7 246.7L534.7 182.7zM105.4 457.4C92.9 469.9 92.9 490.2 105.4 502.7L169.4 566.7C178.6 575.9 192.3 578.6 204.3 573.6C216.3 568.6 224 556.9 224 544L224 512L384 512C490 512 576 426 576 320C576 302.3 561.7 288 544 288C526.3 288 512 302.3 512 320C512 390.7 454.7 448 384 448L224 448L224 416C224 403.1 216.2 391.4 204.2 386.4C192.2 381.4 178.5 384.2 169.3 393.3L105.3 457.3z" />
+                    </svg>
+                  </div>
+                  <div class="cart-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="newarr-type-size d-flex justify-content-between mt-2 ms-1 ">
+                <div class="type">
+                  <a href="categories.html">TOP</a>
+                </div>
+                <div class="newarr-sizes  mt-1">
+                  <ul class="d-flex gap-2 ">
+                    <li>S</li>
+                    <li>M</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="newarr-name">
+                <h3>Cotton fabric Top</h3>
+              </div>
+
+              <div class="newarr-prices d-flex gap-2">
+                <span class="dark-price">$120</span>
+                <span class="light-price">$130</span>
+              </div>
+
+              <div class="newarr-colors">
+                <ul class="d-flex gap-2 align-items-center justify-content-center text-center ">
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-top"></button></li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color4-top"></button></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="newarrival border rounded-4 d-flex flex-column gap-3 py-3 px-4 position-relative">
+              <div class="sale-position">
+                <span class="rounded-3 py-1 px-2">SALE</span>
+              </div>
+              <div class="newarrivals-img text-center mt-3 position-relative">
+                <img class="rounded-3" src="./assets/img/newarrivals/Mantu smart watch.webp" alt="smart watch">
+                <div class="icon-hover-newarrival d-flex gap-2 position-absolute py-2 px-2 rounded-4 ">
+                  <div class="view-svg d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M320 144C254.8 144 201.2 173.6 160.1 211.7C121.6 247.5 95 290 81.4 320C95 350 121.6 392.5 160.1 428.3C201.2 466.4 254.8 496 320 496C385.2 496 438.8 466.4 479.9 428.3C518.4 392.5 545 350 558.6 320C545 290 518.4 247.5 479.9 211.7C438.8 173.6 385.2 144 320 144zM127.4 176.6C174.5 132.8 239.2 96 320 96C400.8 96 465.5 132.8 512.6 176.6C559.4 220.1 590.7 272 605.6 307.7C608.9 315.6 608.9 324.4 605.6 332.3C590.7 368 559.4 420 512.6 463.4C465.5 507.1 400.8 544 320 544C239.2 544 174.5 507.2 127.4 463.4C80.6 419.9 49.3 368 34.4 332.3C31.1 324.4 31.1 315.6 34.4 307.7C49.3 272 80.6 220 127.4 176.6zM320 400C364.2 400 400 364.2 400 320C400 290.4 383.9 264.5 360 250.7C358.6 310.4 310.4 358.6 250.7 360C264.5 383.9 290.4 400 320 400zM240.4 311.6C242.9 311.9 245.4 312 248 312C283.3 312 312 283.3 312 248C312 245.4 311.8 242.9 311.6 240.4C274.2 244.3 244.4 274.1 240.5 311.5zM286 196.6C296.8 193.6 308.2 192.1 319.9 192.1C328.7 192.1 337.4 193 345.7 194.7C346 194.8 346.2 194.8 346.5 194.9C404.4 207.1 447.9 258.6 447.9 320.1C447.9 390.8 390.6 448.1 319.9 448.1C258.3 448.1 206.9 404.6 194.7 346.7C192.9 338.1 191.9 329.2 191.9 320.1C191.9 309.1 193.3 298.3 195.9 288.1C196.1 287.4 196.2 286.8 196.4 286.2C208.3 242.8 242.5 208.6 285.9 196.7z" />
+                    </svg>
+                  </div>
+                  <div class="compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M534.6 182.6C547.1 170.1 547.1 149.8 534.6 137.3L470.6 73.3C461.4 64.1 447.7 61.4 435.7 66.4C423.7 71.4 416 83.1 416 96L416 128L256 128C150 128 64 214 64 320C64 337.7 78.3 352 96 352C113.7 352 128 337.7 128 320C128 249.3 185.3 192 256 192L416 192L416 224C416 236.9 423.8 248.6 435.8 253.6C447.8 258.6 461.5 255.8 470.7 246.7L534.7 182.7zM105.4 457.4C92.9 469.9 92.9 490.2 105.4 502.7L169.4 566.7C178.6 575.9 192.3 578.6 204.3 573.6C216.3 568.6 224 556.9 224 544L224 512L384 512C490 512 576 426 576 320C576 302.3 561.7 288 544 288C526.3 288 512 302.3 512 320C512 390.7 454.7 448 384 448L224 448L224 416C224 403.1 216.2 391.4 204.2 386.4C192.2 381.4 178.5 384.2 169.3 393.3L105.3 457.3z" />
+                    </svg>
+                  </div>
+                  <div class="cart-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="newarr-type-size d-flex justify-content-between mt-2 ms-1 ">
+                <div class="type">
+                  <a href="categories.html">watches</a>
+                </div>
+                <div class="newarr-sizes  mt-1">
+                  <ul class="d-flex gap-2 ">
+
+                  </ul>
+                </div>
+              </div>
+
+              <div class="newarr-name">
+                <h3>Mantu smart watch</h3>
+              </div>
+
+              <div class="newarr-prices d-flex gap-2">
+                <span class="dark-price">$955</span>
+                <span class="light-price">$999</span>
+              </div>
+
+              <div class="newarr-colors">
+                <ul class="d-flex gap-2 align-items-center justify-content-center text-center ">
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-top"></button></li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-shoe"></button>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="newarrival border rounded-4 d-flex flex-column gap-3 py-3 px-4 position-relative">
+              <div class="off-20">
+                <span class="rounded-3 py-1 px-2">20% OFF</span>
+              </div>
+              <div class="newarrivals-img text-center mt-3 position-relative">
+                <img class="rounded-3" src="./assets/img/newarrivals/Mantu leather belt.webp" alt="leather belt">
+                <div class="icon-hover-newarrival d-flex gap-2 position-absolute py-2 px-2 rounded-4 ">
+                  <div class="view-svg d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M320 144C254.8 144 201.2 173.6 160.1 211.7C121.6 247.5 95 290 81.4 320C95 350 121.6 392.5 160.1 428.3C201.2 466.4 254.8 496 320 496C385.2 496 438.8 466.4 479.9 428.3C518.4 392.5 545 350 558.6 320C545 290 518.4 247.5 479.9 211.7C438.8 173.6 385.2 144 320 144zM127.4 176.6C174.5 132.8 239.2 96 320 96C400.8 96 465.5 132.8 512.6 176.6C559.4 220.1 590.7 272 605.6 307.7C608.9 315.6 608.9 324.4 605.6 332.3C590.7 368 559.4 420 512.6 463.4C465.5 507.1 400.8 544 320 544C239.2 544 174.5 507.2 127.4 463.4C80.6 419.9 49.3 368 34.4 332.3C31.1 324.4 31.1 315.6 34.4 307.7C49.3 272 80.6 220 127.4 176.6zM320 400C364.2 400 400 364.2 400 320C400 290.4 383.9 264.5 360 250.7C358.6 310.4 310.4 358.6 250.7 360C264.5 383.9 290.4 400 320 400zM240.4 311.6C242.9 311.9 245.4 312 248 312C283.3 312 312 283.3 312 248C312 245.4 311.8 242.9 311.6 240.4C274.2 244.3 244.4 274.1 240.5 311.5zM286 196.6C296.8 193.6 308.2 192.1 319.9 192.1C328.7 192.1 337.4 193 345.7 194.7C346 194.8 346.2 194.8 346.5 194.9C404.4 207.1 447.9 258.6 447.9 320.1C447.9 390.8 390.6 448.1 319.9 448.1C258.3 448.1 206.9 404.6 194.7 346.7C192.9 338.1 191.9 329.2 191.9 320.1C191.9 309.1 193.3 298.3 195.9 288.1C196.1 287.4 196.2 286.8 196.4 286.2C208.3 242.8 242.5 208.6 285.9 196.7z" />
+                    </svg>
+                  </div>
+                  <div class="compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M534.6 182.6C547.1 170.1 547.1 149.8 534.6 137.3L470.6 73.3C461.4 64.1 447.7 61.4 435.7 66.4C423.7 71.4 416 83.1 416 96L416 128L256 128C150 128 64 214 64 320C64 337.7 78.3 352 96 352C113.7 352 128 337.7 128 320C128 249.3 185.3 192 256 192L416 192L416 224C416 236.9 423.8 248.6 435.8 253.6C447.8 258.6 461.5 255.8 470.7 246.7L534.7 182.7zM105.4 457.4C92.9 469.9 92.9 490.2 105.4 502.7L169.4 566.7C178.6 575.9 192.3 578.6 204.3 573.6C216.3 568.6 224 556.9 224 544L224 512L384 512C490 512 576 426 576 320C576 302.3 561.7 288 544 288C526.3 288 512 302.3 512 320C512 390.7 454.7 448 384 448L224 448L224 416C224 403.1 216.2 391.4 204.2 386.4C192.2 381.4 178.5 384.2 169.3 393.3L105.3 457.3z" />
+                    </svg>
+                  </div>
+                  <div class="cart-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="newarr-type-size d-flex justify-content-between mt-2 ms-1 ">
+                <div class="type">
+                  <a href="categories.html">BELT</a>
+                </div>
+                <div class="newarr-sizes  mt-1">
+                  <ul class="d-flex gap-2 ">
+
+                  </ul>
+                </div>
+              </div>
+
+              <div class="newarr-name">
+                <h3>Mantu leather belt</h3>
+              </div>
+
+              <div class="newarr-prices d-flex gap-2">
+                <span class="dark-price">$10</span>
+                <span class="light-price">$12</span>
+              </div>
+
+              <div class="newarr-colors">
+                <ul class="d-flex gap-2 align-items-center justify-content-center text-center ">
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-belt"></button>
+                  </li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-shoe"></button>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="newarrival border rounded-4 d-flex flex-column gap-3 py-3 px-4">
+              <div class="newarrivals-img text-center mt-3 position-relative">
+                <img class="rounded-3" src="./assets/img/newarrivals/Leather bag.webp" alt="Leather bag">
+                <div class="icon-hover-newarrival d-flex gap-2 position-absolute py-2 px-2 rounded-4 ">
+                  <div class="view-svg d-flex justify-content-center align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M320 144C254.8 144 201.2 173.6 160.1 211.7C121.6 247.5 95 290 81.4 320C95 350 121.6 392.5 160.1 428.3C201.2 466.4 254.8 496 320 496C385.2 496 438.8 466.4 479.9 428.3C518.4 392.5 545 350 558.6 320C545 290 518.4 247.5 479.9 211.7C438.8 173.6 385.2 144 320 144zM127.4 176.6C174.5 132.8 239.2 96 320 96C400.8 96 465.5 132.8 512.6 176.6C559.4 220.1 590.7 272 605.6 307.7C608.9 315.6 608.9 324.4 605.6 332.3C590.7 368 559.4 420 512.6 463.4C465.5 507.1 400.8 544 320 544C239.2 544 174.5 507.2 127.4 463.4C80.6 419.9 49.3 368 34.4 332.3C31.1 324.4 31.1 315.6 34.4 307.7C49.3 272 80.6 220 127.4 176.6zM320 400C364.2 400 400 364.2 400 320C400 290.4 383.9 264.5 360 250.7C358.6 310.4 310.4 358.6 250.7 360C264.5 383.9 290.4 400 320 400zM240.4 311.6C242.9 311.9 245.4 312 248 312C283.3 312 312 283.3 312 248C312 245.4 311.8 242.9 311.6 240.4C274.2 244.3 244.4 274.1 240.5 311.5zM286 196.6C296.8 193.6 308.2 192.1 319.9 192.1C328.7 192.1 337.4 193 345.7 194.7C346 194.8 346.2 194.8 346.5 194.9C404.4 207.1 447.9 258.6 447.9 320.1C447.9 390.8 390.6 448.1 319.9 448.1C258.3 448.1 206.9 404.6 194.7 346.7C192.9 338.1 191.9 329.2 191.9 320.1C191.9 309.1 193.3 298.3 195.9 288.1C196.1 287.4 196.2 286.8 196.4 286.2C208.3 242.8 242.5 208.6 285.9 196.7z" />
+                    </svg>
+                  </div>
+                  <div class="compare">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M534.6 182.6C547.1 170.1 547.1 149.8 534.6 137.3L470.6 73.3C461.4 64.1 447.7 61.4 435.7 66.4C423.7 71.4 416 83.1 416 96L416 128L256 128C150 128 64 214 64 320C64 337.7 78.3 352 96 352C113.7 352 128 337.7 128 320C128 249.3 185.3 192 256 192L416 192L416 224C416 236.9 423.8 248.6 435.8 253.6C447.8 258.6 461.5 255.8 470.7 246.7L534.7 182.7zM105.4 457.4C92.9 469.9 92.9 490.2 105.4 502.7L169.4 566.7C178.6 575.9 192.3 578.6 204.3 573.6C216.3 568.6 224 556.9 224 544L224 512L384 512C490 512 576 426 576 320C576 302.3 561.7 288 544 288C526.3 288 512 302.3 512 320C512 390.7 454.7 448 384 448L224 448L224 416C224 403.1 216.2 391.4 204.2 386.4C192.2 381.4 178.5 384.2 169.3 393.3L105.3 457.3z" />
+                    </svg>
+                  </div>
+                  <div class="cart-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="#999999"
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="newarr-type-size d-flex justify-content-between mt-2 ms-1 ">
+                <div class="type">
+                  <a href="categories.html">BAG</a>
+                </div>
+                <div class="newarr-sizes  mt-1">
+                  <ul class="d-flex gap-2 ">
+
+                    <li>M</li>
+                    <li>L</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="newarr-name">
+                <h3>Leather bag</h3>
+              </div>
+
+              <div class="newarr-prices d-flex gap-2">
+                <span class="dark-price">$66</span>
+              </div>
+
+              <div class="newarr-colors">
+                <ul class="d-flex gap-2 align-items-center justify-content-center text-center ">
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-leabag"></button>
+                  </li>
+                  <li class="d-flex justify-content-center align-items-center"><button class="color3-shoe"></button>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
 
         </div>
       </div>
