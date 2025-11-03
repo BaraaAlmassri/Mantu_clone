@@ -1058,3 +1058,253 @@ footer .container {
 
 
 /* end new arrivals section */
+
+
+
+/* start animation section */
+
+
+
+.amimation-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.animation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.animation-header h3 {
+    color: #313b50;
+    font-weight: 700;
+    font-size: 35px;
+    transform: translateX(0);
+    animation-name: anim-header;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+
+}
+
+.animation-header h4 {
+    font-size: 68px;
+    font-weight: 600;
+    color: #3a4ee5;
+    transform: translateX(0);
+    animation-name: anim-header;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.animation-det span {
+    font-size: 20px;
+    font-weight: 600;
+    transform: translateY(0);
+    animation-name: anim-det;
+
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.animation-det p {
+    color: #777;
+    font-size: 14px;
+    transform: translateY(0);
+    animation-name: anim-det;
+
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.animation-btn {
+    transform: translateY(0);
+    animation-name: anim-btn;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.animation-btn a {
+    text-decoration: none;
+    color: #313b50;
+    background-color: #ffd783;
+    font-size: 14px;
+    transition: all .6s;
+
+
+
+}
+
+.animation-btn a:hover {
+    background-color: #3a4ee5;
+    color: #fff;
+}
+
+@keyframes anim-header {
+    from {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+
+}
+
+@keyframes anim-det {
+
+    from {
+        transform: translateY(500%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@keyframes anim-btn {
+    from {
+        transform: translateY(500%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1399px) {
+    .animation-header h3 {
+        font-size: 30px;
+
+    }
+
+    .animation-header h4 {
+        font-size: 40px;
+
+    }
+
+    @keyframes anim-btn {
+        from {
+            transform: translateY(500%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(-80%);
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .animation-content {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animation-header h3 {
+        font-size: 30px;
+
+    }
+
+    .animation-header h4 {
+        font-size: 40px;
+
+    }
+
+    @keyframes anim-header {
+        from {
+            transform: translateX(150%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width:767px) {
+    .animation-content {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animation-header h3 {
+        font-size: 25px;
+
+    }
+
+    .animation-header h4 {
+        font-size: 30px;
+
+    }
+
+    @keyframes anim-header {
+        from {
+            transform: translateX(150%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+    }
+}
+
+@media screen and (max-width:450px) {
+    .animation-content {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animation-header h3 {
+        font-size: 20px;
+
+    }
+
+    .animation-header h4 {
+        font-size: 25px;
+
+    }
+
+    .animation-det span {
+        font-size: 17px;
+    }
+
+    @keyframes anim-header {
+        from {
+            transform: translateX(150%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+    }
+}
+
+
+/* end animation section */
