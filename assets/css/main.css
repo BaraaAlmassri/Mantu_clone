@@ -819,6 +819,8 @@ footer .container {
     list-style: none;
 }
 
+
+
 .newarrivals-img img {
     width: 100%;
     height: 100%;
@@ -1035,6 +1037,7 @@ footer .container {
 
 .newarrival {
     height: 100%;
+    max-width: 350px;
 }
 
 .newarrival:hover .icon-hover-newarrival {
@@ -1055,6 +1058,9 @@ footer .container {
     fill: #3a4ee5;
 }
 
+ul .span-ul {
+    color: #f1f4f7;
+}
 
 
 /* end new arrivals section */

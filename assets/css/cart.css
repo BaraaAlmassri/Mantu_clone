@@ -1,0 +1,131 @@
+.bread-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bread-cont h2 {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #313b50;
+}
+
+.breadcrumb ol {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .active {
+    color: #777;
+}
+
+
+.cart-content table {
+    width: 100%;
+    background-color: #fff;
+}
+
+.cart-content a {
+    color: #777;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+.cart-img {
+    max-width: 60px;
+    min-width: 50px;
+}
+
+.cart-img img {
+    width: 100%;
+}
+
+
+
+.cart-content table thead>tr>th {
+    padding: 15px;
+    border-top: medium none;
+    color: #313b50;
+    background-color: #f1f4f7;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.cart-content table thead>tr>th:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.cart-content table thead>tr>th:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+.cont-chkout .cont {
+    color: #313b50;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cont-chkout .chkout {
+    text-decoration: none;
+    background-color: #3a4ee5;
+    color: #fff;
+    transition: all .5s;
+}
+
+.cont-chkout .chkout:hover {
+    background-color: #ffd783;
+    color: #313b50;
+}
+
+
+.right-header h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+.right-header p {
+    color: #777;
+    font-size: 14px;
+}
+
+.zip-postal input {
+    color: #777;
+    font-size: 14px;
+}
+
+.country-select select {
+    color: #777;
+    font-size: 14px;
+}
+
+
+.footer-right .txt-left {
+    color: #313b50;
+    font-size: 14px;
+}
+
+.footer-right .txt-right {
+    color: #313b50;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ttl-amount span {
+    font-size: 16px;
+    font-weight: 500;
+}
