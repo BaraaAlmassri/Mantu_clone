@@ -1,0 +1,339 @@
+.bread-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bread-cont h2 {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #313b50;
+}
+
+.breadcrumb ol {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .active {
+    color: #777;
+}
+
+
+
+/* start header of prod-det */
+
+.first-t {
+    max-width: 130px;
+}
+
+.scnd-t {
+    max-width: 130px;
+}
+
+.third-t {
+    max-width: 130px;
+}
+
+.fourth-t {
+    max-width: 130px;
+}
+
+
+.title-right h5 {
+    color: #313b50;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.no-rates a {
+    color: #777;
+    font-size: 14px;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.no-rates:hover a {
+    color: #ffd783;
+}
+
+
+.right-price-sale .rl {
+    color: #313b50;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.right-price-sale .blue-sale {
+    color: #3a4ee5;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.right-price-sale .blue-stock {
+    font-size: 16px;
+    color: #3a4ee5;
+
+}
+
+
+.mrp {
+    color: #777;
+
+}
+
+.mrp span {
+    color: #777;
+    text-decoration: line-through;
+}
+
+
+.right-ul {
+    list-style-type: disc;
+    color: #777;
+    font-size: 14px;
+}
+
+.right-sizes a {
+    background-color: #e1e5e9;
+    font-size: 12px;
+    color: #777;
+    transition: all .5s;
+}
+
+.right-sizes a:hover {
+    background-color: #3a4ee5;
+    color: #fff;
+
+}
+
+
+.right-colors .newarr-colors li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e1e5e9;
+    transition: all .5s;
+}
+
+.right-colors .newarr-colors li:hover {
+    border: 1px solid #3a4ee5;
+}
+
+.newarr-colors .color1-prod-det {
+    background-color: #5b7da9;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color2-prod-det {
+    background-color: #8bb1e0;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3-prod-det {
+    background-color: #98c3bc;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color4-prod-det {
+    background-color: #d4b3a5;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.add-to-cart button {
+    border: none;
+    background-color: #3a4ee5;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .5s;
+    padding: 10px 0;
+}
+
+.add-to-cart button:hover {
+
+    background-color: #ffd783;
+    color: #313b50;
+
+}
+
+
+.fav-view-add button {
+    border: none;
+
+}
+
+.fav-prod-det button {
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.fav-prod-det button:hover {
+    background-color: #ffd783;
+}
+
+
+.view-prod-det button {
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.view-prod-det button:hover {
+    background-color: #fff;
+    background-color: #ffd783;
+}
+
+.span-1 {
+    top: 8px;
+    left: 50%;
+}
+
+
+
+@media screen and (max-width:371px) {
+    .add-to-cart button {
+
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* end header of prod-det */
+
+
+.srch-product .price-now {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.srch-product .prev-price-pd {
+    font-size: 14px;
+    color: #777;
+    text-decoration: line-through;
+}
+
+.srch-product .pd .prod-header {
+    color: #777;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.nav-link {
+
+    color: #313b50;
+
+}
+
+
+
+
+/* start tabs */
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #3a4ee5;
+}
+
+.nav-pills .nav-link {
+    border-radius: 12px;
+}
+
+
+.tab-para {
+
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+}
+
+.tab-ul {
+    list-style-type: disc;
+    color: #777;
+}
+
+.tab-ul span {
+    min-width: 150px;
+    font-size: 15px;
+    color: #313b50;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.vendor-img {
+    max-width: 70px;
+}
+
+.vendor-div-content h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #313b50;
+}
+
+
+.rev-img {
+    max-width: 50px;
+}
+
+.rev-name {
+    font-size: 15px;
+
+    font-weight: 500;
+
+    color: #313b50;
+}
+
+textarea {
+    height: 150px;
+}
+
+.submit-btn-rev input {
+    border: none;
+    background-color: #3a4ee5;
+    color: #fff;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.submit-btn-rev input:hover {
+    border: none;
+    background-color: #ffd783;
+    color: #313b50;
+}
+
+
+
+/* end tabs */
