@@ -1,0 +1,263 @@
+.bread-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bread-cont h2 {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #313b50;
+}
+
+.breadcrumb ol {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .active {
+    color: #777;
+}
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+
+    background-color: white;
+    width: 40px;
+}
+
+.shop-tabs select {
+    color: #777;
+    border: 1px solid #f1f4f7;
+}
+
+
+.clr-all {
+    color: #fff;
+    background-color: #3a4ee5;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.clr-all:hover {
+    color: #313b50;
+    background-color: #ffd783;
+}
+
+.shp-selected {
+    width: 100%;
+    max-width: 100px;
+}
+
+.categ-col .col {
+    max-width: 120px;
+}
+
+.shp-selected span {
+
+    color: #777;
+    font-size: 14px;
+}
+
+.newarr-colors .color3-tshirt {
+    background-color: #6e82ba;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color3-suit {
+    background-color: #6d748d;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarr-colors .color4-suit {
+    background-color: #739a6f;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.newarrivals .newarrival {
+    max-width: 350px;
+}
+
+
+.para-categ {
+    font-size: 13px;
+    color: #777;
+}
+
+.col-custom .col {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.offcanvas-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+
+.offcanvas-header h5::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 55px;
+    bottom: -8px;
+    width: 92%;
+    height: 1px;
+    border-bottom: 1px solid #7b8592;
+    opacity: 0.2;
+
+}
+
+.accordion-button {
+    font-weight: 500;
+    color: #313b50;
+
+}
+
+.accordion-item {
+    border: none;
+
+}
+
+.clothes-info a,
+.clothes-info span {
+    color: #777;
+    font-size: 14px;
+}
+
+.cosmetics-info a,
+.cosmetics-info span {
+    color: #777;
+    font-size: 14px;
+}
+
+.shoes-info a,
+.shoes-info span {
+    font-weight: 500;
+    color: #313b50;
+}
+
+.bag-info a,
+.bag-info span {
+    font-weight: 500;
+    color: #313b50;
+}
+
+.shoes-bag a {
+    margin-left: 20px;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+.brands h6::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 55px;
+    bottom: -8px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #7b8592;
+    opacity: 0.2;
+
+}
+
+
+.brand label {
+    font-size: 15px;
+    color: #999;
+    font-weight: 400;
+}
+
+
+
+
+.size {
+    font-size: 18px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+.sizes h6::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 55px;
+    bottom: -8px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #7b8592;
+    opacity: 0.2;
+
+}
+
+
+.size label {
+    font-size: 15px;
+    color: #999;
+    font-weight: 400;
+}
+
+
+.tag {
+    font-size: 18px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+.tags h6::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 55px;
+    bottom: -8px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #7b8592;
+    opacity: 0.2;
+
+}
+
+
+.tags-btns a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 3px 8px;
+    border: 1px solid #e5e5e5;
+    color: #313b50;
+    border-radius: 10px;
+    background-color: #f1f0f4;
+    transition: all .5s;
+}
+
+.tags-btns a:hover {
+    background-color: #ffd783;
+}
