@@ -359,14 +359,24 @@ footer .container {
 
 }
 
+.apple {
+    max-width: 130px;
+}
+
+.android {
+    max-width: 130px;
+}
+
 .apple img {
-    width: 150px;
-    height: 45px;
+    width: 100%;
 }
 
 .android img {
-    max-width: 150px;
-    height: 45px;
+    width: 100%;
+}
+
+.mail {
+    word-break: keep-all;
 }
 
 
@@ -401,6 +411,20 @@ footer .container {
 .f-list a {
     text-decoration: none;
     font-size: 16px;
+    color: #7b8592;
+    font-weight: 400;
+}
+
+.f-list .footer-phone a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #7b8592;
+    font-weight: 400;
+}
+
+.f-list .footer-email a {
+    text-decoration: none;
+    font-size: 14px;
     color: #7b8592;
     font-weight: 400;
 }
@@ -466,6 +490,42 @@ footer .container {
     color: #ffd783;
 }
 
+footer .accordion-item {
+    border: none;
+
+}
+
+footer .accordion-button {
+    background-color: #181e28;
+    font-size: 14px;
+    color: #b9c2d0;
+    font-weight: 500;
+    font-weight: 700;
+    border: none;
+}
+
+footer .accordion-body {
+    background-color: #181e28;
+    font-size: 14px;
+    border: none;
+    border: none;
+
+}
+
+footer .accordion-body a {
+    text-decoration: none;
+    color: #7b8592;
+}
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .mail {
+        word-break: break-all;
+    }
+}
+
 @media screen and (min-width:992px) {
     .drop-down-responsive {
         display: none;
@@ -479,7 +539,7 @@ footer .container {
         gap: 15px;
     }
 
-    .right-side {
+    .right-sides {
         display: none;
     }
 }
