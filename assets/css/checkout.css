@@ -1,0 +1,258 @@
+.bread-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bread-cont h2 {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #313b50;
+}
+
+.breadcrumb ol {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .active {
+    color: #777;
+}
+
+
+.new-title h3 {
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #313b50;
+}
+
+.new-content span {
+    color: #313b50;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.guest label,
+.register label {
+    font-size: 14px;
+    color: #777;
+}
+
+.description p {
+    color: #777;
+    font-size: 14px;
+}
+
+.new-btn a {
+    color: #fff;
+    background-color: #3a4ee5;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.new-btn a:hover {
+
+    background-color: #ffd783;
+    color: #313b50;
+
+}
+
+.email label,
+.password label {
+    color: #313b50;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email input,
+.password input {
+    font-size: 14px;
+    color: #777;
+
+}
+
+.chk-lgn-btn {
+    background-color: #3a4ee5;
+    color: #fff;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.chk-lgn-btn:hover {
+    background-color: #ffd783;
+    color: #313b50;
+
+}
+
+.chk-forgot {
+    color: #313b50;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.chk-forgot:hover {
+    color: #3a4ee5;
+
+}
+
+.exist label,
+.new-address label {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.place-order a {
+    background-color: #3a4ee5;
+    color: #fff;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.place-order a:hover {
+    background-color: #ffd783;
+    color: #313b50;
+
+}
+
+.summary-title h3 {
+
+    font-size: 20px;
+    font-weight: 600;
+
+
+    color: #313b50;
+}
+
+.txt-left {
+    color: #777;
+    font-size: 14px;
+}
+
+.ttl-amount .txt-left {
+    font-size: 16px;
+    color: #313b50;
+}
+
+.txt-right {
+    color: #313b50;
+    font-size: 15px;
+
+    font-weight: 500;
+}
+
+.srch-product {
+    border: none;
+}
+
+.srch-product .price-now {
+    color: #313b50;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.srch-product .pd .prod-header {
+    font-size: 15px;
+    color: #313b50;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+.srch-product .pd .prod-header:hover {
+
+    color: #3a4ee5;
+
+}
+
+.delivery-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+
+.free-shipping label,
+.flat-rate label {
+    font-size: 14px;
+    color: #777;
+}
+
+.delivery-div span {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+}
+
+.form-span .free-ship {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-span .flat {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.payment-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313b50;
+}
+
+.payment-div span {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.cash-on-delivery label {
+    font-size: 14px;
+    color: #777;
+}
+
+.payment-div .txt-area-head {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+textarea {
+    font-size: 14px;
+    color: #777;
+}
+
+.payment-div .terms {
+    color: #313b50;
+    font-size: 14px;
+
+
+    font-weight: 400;
+}
+
+.payment-div label {
+    color: #777;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.p-img {
+    max-width: 300px;
+}
