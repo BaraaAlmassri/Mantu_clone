@@ -1,0 +1,108 @@
+.bread-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bread-cont h2 {
+    color: #313b50;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #313b50;
+}
+
+.breadcrumb ol {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb .active {
+    color: #777;
+}
+
+
+.mail-icon {
+    background-color: #3a4ee5;
+    height: 70px;
+    width: 70px;
+}
+
+.mail-header h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #313b50;
+}
+
+.mail-desc p {
+    font-size: 14px;
+    color: #777;
+}
+
+
+
+.phone-icon {
+    background-color: #3a4ee5;
+    height: 70px;
+    width: 70px;
+}
+
+.phone-header h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #313b50;
+}
+
+.phone-desc p {
+    font-size: 14px;
+    color: #777;
+}
+
+.address-icon {
+    background-color: #3a4ee5;
+    height: 70px;
+    width: 70px;
+}
+
+.address-header h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #313b50;
+}
+
+.address-desc p {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.contact-inputs input {
+    font-size: 15px;
+    color: #777;
+}
+
+textarea {
+    height: 130px;
+}
+
+.submit-cont .submit-contact {
+
+    background-color: #3a4ee5;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+.submit-cont .submit-contact:hover {
+
+    background-color: #ffd783;
+    color: #313b50;
+
+}
